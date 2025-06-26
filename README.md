@@ -1,19 +1,20 @@
 # Assistente de Estudo com Ollama
 
-Uma aplicação web que utiliza modelos de linguagem local (via Ollama) para auxiliar estudantes nos seus estudos, respondendo a perguntas, gerando resumos e ajudando na revisão de conteúdo académico.
+![Assistente de Estudo](Imagem.PNG)
+
+Uma aplicação que utiliza modelos de linguagem local (via Ollama) para auxiliar estudantes nos estudos. Responde a perguntas, gera resumos e cria planos de estudo.
 
 ## Funcionalidades
 
 - 💡 Respostas a perguntas sobre matérias específicas
-- 📝 Geração de resumos de livros e artigos
+- 📝 Gera resumos
 - 📚 Revisão de conteúdo académico
 - 🎯 Sugestões de estudo personalizadas
-- 📊 Visualização de conceitos-chave
 
 ## Requisitos
 
 - Python 3.11+
-- Ollama instalado e em execução localmente
+- Ollama instalado e em execução local
 - Modelo Llama2 ou Mistral descarregado no Ollama
 
 ## Instalação
@@ -84,7 +85,3 @@ A aplicação estará disponível em `http://localhost:8501`
 - [Streamlit](https://github.com/streamlit/streamlit) - Framework para desenvolvimento rápido de aplicações web
 - [Ollama](https://github.com/ollama/ollama) - Framework para executar LLMs localmente
 - [Llama2](https://github.com/facebookresearch/llama) - Modelo de linguagem open-source
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. 
