@@ -20,11 +20,10 @@ client = get_ollama_client()
 # Título e descrição
 st.title("📚 Assistente de Estudo")
 st.markdown("""
-Este assistente utiliza IA para ajudá-lo nos seus estudos, oferecendo:
+Este assistente utiliza IA para ajudá-lo nos estudos, ao oferecer:
 - Respostas para perguntas específicas
-- Geração de resumos
+- Resumos da matéria
 - Planos de estudo personalizados
-- Revisão de conteúdo académico
 """)
 
 # Sidebar para configurações
@@ -42,14 +41,14 @@ with st.sidebar:
     st.markdown("""
     1. Escolha uma funcionalidade no menu acima
     2. Siga as instruções específicas de cada secção
-    3. Aguarde a resposta do assistente
+    3. Aguarde pela resposta do assistente
     """)
 
 # Funcionalidades principais
 tab1, tab2, tab3 = st.tabs(["📝 Perguntas", "📚 Resumos", "📋 Plano de Estudos"])
 
 with tab1:
-    st.header("Faça as suas perguntas")
+    st.header("Faça perguntas")
     question = st.text_area("Digite a sua pergunta:", height=100)
     context = st.text_area("Forneça o contexto (opcional):", height=150)
     
@@ -125,4 +124,4 @@ with tab3:
 
 # Rodapé
 st.markdown("---")
-st.markdown("Desenvolvido com ❤️ utilizando Ollama e Streamlit") 
+st.markdown("Desenvolvido com ❤️ através de Ollama e Streamlit") 
